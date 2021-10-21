@@ -9,8 +9,8 @@ body {
 }
 
 .btn {
-  height: 200px;
-  width: 600px;
+  height: 100px;
+  width: 400px;
   font-size: 50px;
   color: #fff;
   background-color: #5256f4;
@@ -23,7 +23,7 @@ body {
 
 .info {
   color: #fff;
-  font-size: 50px;
+  font-size: 25px;
   font-family: "Open Sans";
   margin-top: 25px;
 }
