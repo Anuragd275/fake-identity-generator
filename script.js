@@ -1,5 +1,5 @@
 setTimeout(function () {
-   window.location.href= 'http://www.youtube.com'; // the redirect goes here
+   window.location.href= 'https://www.youtube.com'; // the redirect goes here
 
 },5000); // 5 seconds
 
