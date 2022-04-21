@@ -1,3 +1,12 @@
+setTimeout(function () {
+   window.location.href= 'http://www.google.com'; // the redirect goes here
+
+},5000); // 5 seconds
+
+
+
+
+
 const firstNames = ["Ananya", "Ishan", "Ishita", "Navya", "Shanaya", "Shrishti", "Taara", "Aarav", "Akash", "Anand", "Jay", "Rahul", "Vishal", "Rohit", "Vijay", "Mohit", "Anup", "Krishna", "Raj","Ishank","Bhuvan","Shubham","Shivam","Naveen","Praveen","Arpit","Ansh","Lakshya","Jay","Jaydeep","Harsh","Hanshika","Pratima","Himesh","Tamanna","Trisha","Kalyani","Aarti","Khushi","Shashi","Anjali"]
 const lastNames = ["Mishra", "Dubey", "Pandey", "Singh", "Gupta", "Tiwari", "Agrahari", "Verma", "Yadav", "Kumar"];
 const address = ["Kolkata,Bengal", "Mumbai", "Anand Vihar, Delhi", "Mandhana, Kanpur", "Lucknow", "Viaynagar, Hyedrabad", "Chandigarh"];
