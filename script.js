@@ -1,7 +1,11 @@
+/*
+
 setTimeout(function () {
    window.location.href= 'https://www.youtube.com'; // the redirect goes here
 
 },5000); // 5 seconds
+
+*/
 
 
 
