@@ -5,25 +5,34 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #808b96;
+  background-color:#fafafa;
 }
 
 .btn {
   height: 100px;
   width: 400px;
-  font-size: 20px;
+  font-size: 30px;
   color: #fff;
   background-color: #5256f4;
   border: none;
-  border-radius: 60px;
+  border-radius: 50px;
   font-family: montserrat;
   margin-top: 100px;
   cursor: pointer;
+
 }
 
 .info {
-  color: #fff;
+  color: #273746;
   font-size: 25px;
-  font-family: "Open Sans";
+  font-family:montserrat, sans-serif;
   margin-top: 25px;
+}
+
+
+.box{
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+  align-items: center;
 }
