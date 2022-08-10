@@ -1,20 +1,32 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width" ="device-width," initial-scale="1" />
     <title>Fake Identity Generator</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <button class="btn" id="gen-btn">Generate a Fake ID</button>
     <div class="box">
-      <div class="info firstname" id="fake-firstname"></div>
-      <div class="info lastname" id="fake-lastname"></div>
-      <div class="info address" id="fake-address"></div>
-      <div class="info mother" id="fake-mother"></div>
-      <div class="info father" id="fake-father"></div>
-      <div class="info dob" id="fake-dob"></div>
-      <div class="info school" id="fake-school"></div>
-      <div class="info mail" id="fake-mail"></div>
-      <div class="info phone" id="fake-phone"></div>
+      <div id="info">
+        <p id="firstName"></p>
+        <p id="lastName"></p>
+        <p id="father"></p>
+        <p id="mother"></p>
+        <p id="house"></p>
+        <p id="address"></p>
+        <p id="phone"></p>
+        <p id="email"></p>
+        <p id="birthday"></p>
+        <p id="ssn"></p>
+        <p id="college"></p>
+      </div>
+      <button id="btn">Generate Fake ID</button>
+    </div>
+    <div id="social">
+      <a href="https://github.com/Anuragd275/fake-identity-generator"
+        >GitHub Repository</a
+      >
     </div>
     <script src="script.js"></script>
   </body>
