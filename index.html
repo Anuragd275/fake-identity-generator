@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width =device-width, initial-scale=1" />
-    <title>Fake ID Generator</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fake Identity Generator</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
   </head>
   <body>
-    <div class="box">
-      <div class="hero">
-        <div class="head">
-          <h1>Generate a Fake ID in 1 click!</h1>
-        </div>
-        <div class="btn-box">
-          <a href="#" id="btn">Generate</a>
-        </div>
+    <div class="hero">
+      <div>
+        <h1 class="heroText">Generate Fake Identity</h1>
       </div>
-      <div class="opt" id="area">
-        <p class="value" id="firstName"></p>
-        <p class="value" id="lastName"></p>
-        <p class="value" id="address"></p>
-        <p class="value" id="mother"></p>
-        <p class="value" id="father"></p>
-        <p class="value" id="birthday"></p>
-        <p class="value" id="college"></p>
-        <p class="value" id="email"></p>
-        <p class="value" id="phone"></p>
-        <p class="value" id="ssn"></p>
+      <div>
+        <p class="heroSubText">Disposable Profile details for Signups etc.</p>
       </div>
     </div>
-    <script src="script.js"></script>
+    <div class="resultArea" id="resultDiv">
+      <hr />
+      <p id="firstName"></p>
+      <p id="lastName"></p>
+      <p id="dob"></p>
+      <p id="homeTown"></p>
+      <p id="phone"></p>
+      <p id="aCardNumber"></p>
+      <hr />
+    </div>
+    <div class="hero">
+      <div class="btnArea">
+        <button id="btn" onclick="generateID();">Generate</button>
+      </div>
+    </div>
   </body>
 </html>
