@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@500&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -10,43 +9,42 @@ body{
 }
 
 .hero{
+    font-family: Poppins, 'sans-serif';
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    font-family: "poppins";
+    margin-top: 2rem;
 }
 
-h1{
-    font-size: 5rem;
+.resultArea{
+    font-family: Inter, 'sans-serif';
 }
 
-a{
-    text-decoration: none;
-    padding: 1rem 3rem;
-    color: #fff;
+button{
     background-color: #000;
-    font-size: 1.1rem;
-    border: 1px solid #000;
+    color: #fff;
+    font-family: Inter, 'sans-serif';
+    font-size: larger;
+    padding: 0.5rem 1rem;
+    border: #000 solid 2px;
+    border-radius: 2px;
+    cursor: pointer;
 }
 
-a:hover{
-    color: #000;
+button:hover{
     background-color: #fff;
-    border: 1px soild #000;
+    color: #000;
 }
 
-p{
-    font-family: "poppins";
-    padding: 0.5rem 4rem;
-}
-
-.opt{
+.resultArea{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
 }
+
 
 @media (max-width: 600px){
     .opt{
